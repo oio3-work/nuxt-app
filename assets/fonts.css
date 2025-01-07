@@ -1,0 +1,29 @@
+/* Regular */
+@font-face {
+    font-family: 'NoorRegular';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/assets/NoorRegular.ttf') format('truetype');
+  }
+
+  /* Default Regular */
+  .NoorRegular {
+    font-family: 'NoorRegular', sans-serif;
+    font-weight: 600;
+  
+  }
+  
+     
+  @font-face{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/assets/Urbanist-Regular.ttf') format('truetype');
+  }
+   /* Default Regular */
+   .UrbanistRegular {
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 400;
+  
+  }
+  
