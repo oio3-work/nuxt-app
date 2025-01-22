@@ -11,8 +11,8 @@
       <div class=" z-10 mt-7 rounded-3xl w-fit mx-5 lg:mx-10 bg-gradient-to-b from-[#8137FF] to-[#5925B0]">
         <ul class="grid grid-cols-2 lg:grid-cols-4 gap-2 p-2 lg:p-4 h-full items-center justify-between lg:gap-10">
           <!-- cards features  -->
-          <li v-for="(feature, index) in features" class="group h-full">
-            <div class="p-4 lg:p-6 transition-all group-hover:scale-110 lg:group-hover:scale-125 w-fit h-full flex flex-col gap-3 justify-around items-center group-hover:bg-gradient-to-b group-hover:from-[#FFCD4A] group-hover:to-[#F6A72A]">
+          <li v-for="(feature, index) in features"   class="group h-full">
+            <div class="p-4 lg:p-6 transition-all group-hover:scale-110 lg:group-hover:scale-125 w-fit h-full flex flex-col gap-3 justify-around items-center group-hover:bg-gradient-to-b group-hover:from-[#FFCD4A] group-hover:to-[#F6A72A]"     >
               <!-- icon -->
               <div style="box-shadow: rgba(255, 196, 133, 0.8) 0px 0px 10px 0px" class="w-fit p-4 rounded-full bg-gradient-to-b from-[#FFC486] to-[#FBB974] group-hover:from-[#8137FF] group-hover:to-[#5925B0]">
                 <component :is="getIconComponent(feature.icon)" class="text-white group-hover:text-[#FCC140]" />
@@ -34,6 +34,7 @@
 </template>
 
 <script setup>
+ 
 import FeaturesIconsHotspot from "~/components/Features/Icons/Hotspot.vue";
 import FeaturesIconsIDcard from "~/components/Features/Icons/IDcard.vue";
 import FeaturesIconsUser from "~/components/Features/Icons/user.vue";
@@ -75,4 +76,7 @@ const getIconComponent = (icon) => {
       return null;
   }
 };
+
+ 
+ 
 </script>

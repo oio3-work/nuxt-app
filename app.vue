@@ -1,6 +1,6 @@
  
 
-<template>
+<template >
   <div dir="rtl" class="NoorRegular">
   <NuxtLayout ></NuxtLayout>
   </div>

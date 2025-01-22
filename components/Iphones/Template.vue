@@ -13,7 +13,7 @@
          
 
          <!-- 2 cricle bottom left -->
-         <div class="absolute flex justify-center items-center -bottom-5 -left-[8%] md:-left-[12%] opacity-70 size-28 bg-[#7534E3] rounded-full"> 
+         <div class="absolute flex justify-center items-center -bottom-5 -left-[8%] md:-left-[12%] lg:-left-9 opacity-70 size-28 bg-[#7534E3] rounded-full"> 
           <Icon name="fluent:math-formula-16-regular" class=" text-white size-20 mb-1 opacity-35" /> 
          </div>
         <!-- 2 cricle bottom left -->
