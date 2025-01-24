@@ -4,7 +4,7 @@
       class="   px-8 text-center flex flex-col justify-around w-full space-y-9 md:space-y-11 lg:space-y-13      bg-gradient-to-b from-[#8137FF] to-[#5925B0]">
       <!-- logo and links  -->
       <div class="flex flex-col justify-center items-center space-x-2">
-        <NuxtImg src="footer/logoScholar.svg" class="w-[334px] h-[119px]" />
+        <LogoScholarFooter class="w-[334px] h-[119px]" />
         <div class=" flex justify-between flex-wrap space-x-5 lg:space-x-10">
           <div v-for="(link, index) in LinksFooter" :key="index">
             <NuxtLink :href="link.href"
@@ -33,12 +33,6 @@
 
           </ul>
         </div>
-
-
-
-
-
-
 
         <div>
           <p dir="ltr" class=" text-xs  md:text-sm  text-white UrbanistRegula font-thin">© 2025 Scholar Academy. All

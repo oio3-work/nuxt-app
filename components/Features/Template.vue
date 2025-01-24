@@ -26,7 +26,7 @@
       </div>
     </div>
      
-  <NuxtImg class="absolute  left-1/6     -top-[14rem]  lg:left-1/4   lg:-top-[25rem]  " src="features/Vector.svg" />
+  <img class="absolute  left-1/6     -top-[14rem]  lg:left-1/4   lg:-top-[25rem]  " src="../../assets/features/Vector.svg"/>
 
   
 
